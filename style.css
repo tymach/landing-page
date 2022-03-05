@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-left: 140px;
-    margin-right: 100px;
+    margin-right: 175px;
     margin-bottom: 30px;
 
 }
@@ -53,8 +53,9 @@ body {
 
 .box2 {
     flex: 1;
-    justify-content: center;
+    justify-content: flex-end;
     margin-right: 10px;
+    margin-bottom: 100px;
 
 }
 
@@ -63,7 +64,7 @@ body {
     color: #1f2937;
     background-color: white;
     font-weight: bolder;
-    font-size: 38px;
+    font-size: 30px;
     text-align: center;
     flex-direction: column;
     margin-left: 140px;
@@ -118,48 +119,71 @@ blockquote {
 
 blockquote p {
     color: #1f2937;
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
     font-weight: lighter;
     text-align: left;
+    padding: 50px;
+    margin-right: 40px;
 
 }
 
 figcaption {
     display: flex;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bolder;
     margin-top: -30px;
-    margin-right: 100px;
+    margin-right: 150px;
     margin-bottom: 100px;
     align-self: flex-end;
     justify-content: flex-start;
-
 }
 
 
+.twobot {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 20px;
+    border: 2px solid #3882f6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 25px;
+}
+
+.bot-text {
+    flex: 1;
+}
+
+.but-two {
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-right: 100px;
+    margin-top: 40px;
+    align-self: flex-end;
+}
 
 
+footer {
+    background-color: #1f2937;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
 
 
+#action {
+    font-weight: bolder;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#action-text {
+    display: flex;
+    font-size: 18px;
+    color: #f9faf8;
+}
 
 #titinfo {
     font-size: 18px;
